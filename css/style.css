@@ -1,0 +1,48 @@
+html{
+    background-image: url(../image/fond-index.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+body{
+margin: 0
+;}
+
+header{
+    width: 100wh;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titre{
+    width: auto;
+}
+
+.contener-projet{
+    background-color:red ;
+}
+
+.projet{
+    background-color: aqua;
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 4 / 7; }
+    .div2 { grid-area: 4 / 1 / 9 / 3; }
+    .div3 { grid-area: 9 / 1 / 13 / 3; }
+    .div4 { grid-area: 1 / 7 / 4 / 13; }
+    .div5 { grid-area: 4 / 11 / 13 / 13; }
+    .div6 { grid-area: 4 / 3 / 10 / 11; }
+    .div7 { grid-area: 10 / 3 / 13 / 11; }
