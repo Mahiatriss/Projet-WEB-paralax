@@ -1,2 +1,2 @@
-# index.html
+Projet étudiant de créativ coding.
  
